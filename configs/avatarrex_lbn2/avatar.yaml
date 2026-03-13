@@ -3,7 +3,7 @@ train:
   dataset: MvRgbDatasetAvatarReX
   data:
     subject_name: avatarrex_lbn2
-    data_dir: Z:/Data/MultiviewRGB/avatarrex/lbn2
+    data_dir: /workspace/carla/AnimatableGaussians/data/avatarrex_lbn2
     frame_range: &id001
     - 0
     - 1871
@@ -33,14 +33,14 @@ test:
   dataset: MvRgbDatasetAvatarReX
   data:
     subject_name: avatarrex_lbn2
-    data_dir: Z:/Data/MultiviewRGB/avatarrex/lbn2
+    data_dir: /workspace/carla/AnimatableGaussians/data/avatarrex_lbn2
     frame_range: *id001
   pose_data:
 #    data_path: Z:/Data/Pose/thuman4/pose_00.npz
 #    frame_range: [2000, 2500]
 #    data_path: Z:/Data/Pose/AMASS/CMU/06/06_13_poses.npz
 #    data_path: Z:/Data/Pose/AMASS/CMU/10/10_05_poses.npz
-    data_path: Z:/Data/Pose/AMASS/MPI_mosh/00093/irish_dance_poses.npz
+    data_path: /workspace/carla/AnimatableGaussians/thuman4/pose_00.npz
     frame_interval: 4
   view_setting: front
   render_view_idx: 0

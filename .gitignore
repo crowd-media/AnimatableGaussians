@@ -168,3 +168,7 @@ cython_debug/
 *tmp*
 
 *.exe
+
+# Large data directories
+thuman4/
+data/
